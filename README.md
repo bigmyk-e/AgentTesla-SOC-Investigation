@@ -150,7 +150,7 @@ AUTH:     230 OK
 
 |#|Filename                                                                           |Timestamp    |Speed      |Session   |
 |-|-----------------------------------------------------------------------------------|-------------|-----------|----------|
-|1|PW_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_20_57.html                         |t=7.158194   |4.39 KB/s  |Session 1 |
+|1|PW_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_20_57.html                         |t=7.158194   |4.39 KB/s  |Session&nbsp;1 |
 |2|CO_Chrome_Default.txt_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_21_03.txt       |t=8.180679   |126.77 KB/s|Session 1 |
 |3|CO_Edge_Chromium_Default.txt_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_21_04.txt|t=8.619721   |90.09 KB/s |Session 1 |
 |4|KL_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_41_04.html                         |t=1212.249450|—          |Session 2 |
@@ -195,7 +195,7 @@ AUTH:     230 OK
 
 |# |Type          |Value                                                                              |Phase   |
 |--|--------------|-----------------------------------------------------------------------------------|--------|
-|1 |Email         |[sertan@acronas.com.tr](mailto:sertan@acronas.com.tr)                              |Phase 1 |
+|1 |Email         |[sertan@acronas.com.tr](mailto:sertan@acronas.com.tr)                              |Phase&nbsp;1|
 |2 |IP            |94.141.120.32                                                                      |Phase 1 |
 |3 |Domain        |acronas.com.tr                                                                     |Phase 1 |
 |4 |File          |TECHNICAL SPECIFICATIONS.TAR                                                       |Phase 1 |
