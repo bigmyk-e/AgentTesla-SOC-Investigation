@@ -148,12 +148,12 @@ AUTH:     230 OK
 
 **Files Exfiltrated**
 
-|#|Filename                                                                           |Timestamp    |Speed      |Session  |
-|-|-----------------------------------------------------------------------------------|-------------|-----------|---------|
-|1|PW_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_20_57.html                         |t=7.158194   |4.39 KB/s  |Session 1|
-|2|CO_Chrome_Default.txt_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_21_03.txt       |t=8.180679   |126.77 KB/s|Session 1|
-|3|CO_Edge_Chromium_Default.txt_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_21_04.txt|t=8.619721   |90.09 KB/s |Session 1|
-|4|KL_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_41_04.html                         |t=1212.249450|—          |Session 2|
+|#|Filename                                                                           |Timestamp    |Speed      |Session   |
+|-|-----------------------------------------------------------------------------------|-------------|-----------|----------|
+|1|PW_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_20_57.html                         |t=7.158194   |4.39 KB/s  |Session 1 |
+|2|CO_Chrome_Default.txt_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_21_03.txt       |t=8.180679   |126.77 KB/s|Session 1 |
+|3|CO_Edge_Chromium_Default.txt_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_21_04.txt|t=8.619721   |90.09 KB/s |Session 1 |
+|4|KL_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_41_04.html                         |t=1212.249450|—          |Session 2 |
 
 **File Prefix Key**
 
@@ -193,31 +193,31 @@ AUTH:     230 OK
 
 ## IOC Summary
 
-|# |Type          |Value                                                                              |Phase  |
-|--|--------------|-----------------------------------------------------------------------------------|-------|
-|1 |Email         |[sertan@acronas.com.tr](mailto:sertan@acronas.com.tr)                              |Phase 1|
-|2 |IP            |94.141.120.32                                                                      |Phase 1|
-|3 |Domain        |acronas.com.tr                                                                     |Phase 1|
-|4 |File          |TECHNICAL SPECIFICATIONS.TAR                                                       |Phase 1|
-|5 |File          |TECHNICAL SPECIFICATIONS.exe                                                       |Phase 1|
-|6 |MD5           |b7635c9cc63619099419c68a2bf0d390                                                   |Phase 1|
-|7 |SHA1          |98683c9ee69dd591473629d231aacb1020db91b4                                           |Phase 1|
-|8 |SHA256        |5c98308c69c84a57214442e2cadc9f8f0fcdbab8e6050f9915ac336b6f1d59f0                   |Phase 1|
-|9 |Malware       |trojan.msil/agenttesla                                                             |Phase 1|
-|10|IP            |10.12.4.101                                                                        |Phase 2|
-|11|MAC           |00:0c:f1:f4:7b:e1                                                                  |Phase 2|
-|12|Hostname      |DESKTOP-VJCRXEB                                                                    |Phase 2|
-|13|Username      |gary.strickman                                                                     |Phase 2|
-|14|IP            |192.254.225.136                                                                    |Phase 2|
-|15|Domain        |ftp.ercolina-usa.com                                                               |Phase 2|
-|16|Domain        |api.ipify.org                                                                      |Phase 2|
-|17|FTP Credential|[ben@ercolina-usa.com](mailto:ben@ercolina-usa.com)                                |Phase 2|
-|18|FTP Credential|nXe0M-WkW&nJ                                                                       |Phase 2|
-|19|Exfil File    |PW_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_20_57.html                         |Phase 2|
-|20|Exfil File    |CO_Chrome_Default.txt_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_21_03.txt       |Phase 2|
-|21|Exfil File    |CO_Edge_Chromium_Default.txt_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_21_04.txt|Phase 2|
-|22|Exfil File    |KL_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_41_04.html                         |Phase 2|
-|23|Malware Family|trojan.msil/agenttesla                                                             |Both   |
+|# |Type          |Value                                                                              |Phase   |
+|--|--------------|-----------------------------------------------------------------------------------|--------|
+|1 |Email         |[sertan@acronas.com.tr](mailto:sertan@acronas.com.tr)                              |Phase 1 |
+|2 |IP            |94.141.120.32                                                                      |Phase 1 |
+|3 |Domain        |acronas.com.tr                                                                     |Phase 1 |
+|4 |File          |TECHNICAL SPECIFICATIONS.TAR                                                       |Phase 1 |
+|5 |File          |TECHNICAL SPECIFICATIONS.exe                                                       |Phase 1 |
+|6 |MD5           |b7635c9cc63619099419c68a2bf0d390                                                   |Phase 1 |
+|7 |SHA1          |98683c9ee69dd591473629d231aacb1020db91b4                                           |Phase 1 |
+|8 |SHA256        |5c98308c69c84a57214442e2cadc9f8f0fcdbab8e6050f9915ac336b6f1d59f0                   |Phase 1 |
+|9 |Malware       |trojan.msil/agenttesla                                                             |Phase 1 |
+|10|IP            |10.12.4.101                                                                        |Phase 2 |
+|11|MAC           |00:0c:f1:f4:7b:e1                                                                  |Phase 2 |
+|12|Hostname      |DESKTOP-VJCRXEB                                                                    |Phase 2 |
+|13|Username      |gary.strickman                                                                     |Phase 2 |
+|14|IP            |192.254.225.136                                                                    |Phase 2 |
+|15|Domain        |ftp.ercolina-usa.com                                                               |Phase 2 |
+|16|Domain        |api.ipify.org                                                                      |Phase 2 |
+|17|FTP Credential|[ben@ercolina-usa.com](mailto:ben@ercolina-usa.com)                                |Phase 2 |
+|18|FTP Credential|nXe0M-WkW&nJ                                                                       |Phase 2 |
+|19|Exfil File    |PW_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_20_57.html                         |Phase 2 |
+|20|Exfil File    |CO_Chrome_Default.txt_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_21_03.txt       |Phase 2 |
+|21|Exfil File    |CO_Edge_Chromium_Default.txt_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_21_04.txt|Phase 2 | 
+|22|Exfil File    |KL_gary.strickman-DESKTOP-VJCRXEB_2024_12_04_21_41_04.html                         |Phase 2 |
+|23|Malware Family|trojan.msil/agenttesla                                                             |Both    |
 
 -----
 
