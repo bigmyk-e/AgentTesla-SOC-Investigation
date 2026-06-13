@@ -223,11 +223,13 @@ AUTH:     230 OK
 
 ## Deliverables
 
-- 📄 Phishing Analysis Report (PDF)
-- 📄 Network Investigation Report (PDF)
-- 📊 IOC Summary Table (Excel — 3 tabs)
-- 📁 Screenshots Evidence Folder (organised by investigation phase)
-- 📊 Executive Summary Slide Deck (PowerPoint)
+| Document | Link |
+|---|---|
+| 📄 Phishing Analysis Report | [View PDF](Phase1%20Phishing%20Analysis%20Report.pdf) |
+| 📄 Network Investigation Report | [View PDF](Phase2%20Network%20Investigation%20Report.pdf) |
+| 📊 IOC Summary Table | [View Excel](IOC%20Summary%20Table%20AgentTesla.xlsx) |
+| 📊 Executive Summary Slide Deck | [View PowerPoint](Executive_Summary_AgentTesla.pptx) |
+| 📁 Screenshots Evidence | [View Folder](Screenshots/) |
 
 -----
 
